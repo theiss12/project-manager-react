@@ -1,0 +1,17 @@
+.component-pagination {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 10px;
+
+    .button {
+        min-width: 50px;
+
+        &--active {
+            background-color: white;
+            color: coral;
+            box-shadow: 0 0 20px rgba($color: #000000, $alpha: 0);
+        }
+    }
+}
